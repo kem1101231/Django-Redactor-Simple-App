@@ -19,9 +19,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '7_b*5dbs55&oh#hdx7kpo5kre&#o+s1&8=$9)!b%tew=7p%!u-'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -38,7 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'redactor',
-    'ckeditor',
+    #'ckeditor',
     'App',
 ]
 
@@ -133,4 +130,4 @@ REDACTOR_UPLOAD = 'media/uploads/'
 #REDACTOR_UPLOAD_HANDLER = 'redactor.handlers.DateDirectoryUploader'
 #REDACTOR_AUTH_DECORATOR = 'django.contrib.auth.decorators.login_required'
 
-CKEDITOR_UPLOAD_PATH = "/media/ckeditor/uploads/"
+#CKEDITOR_UPLOAD_PATH = "/media/ckeditor/uploads/"
